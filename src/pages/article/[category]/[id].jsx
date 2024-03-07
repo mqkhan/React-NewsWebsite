@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Layout from "@/components/Layout";
 
-const API_NYCKEL = "";
+const API_NYCKEL = "pub_382400e9b25aa439219602c048f8238f59619";
 
 export default function Article() {
   const [article, setArticle] = useState(null);

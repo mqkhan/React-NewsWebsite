@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import LatestNews from "./LatestNews";
 import latestNews from "../../data/latestNews";
 import Link from "next/link";
@@ -15,7 +15,6 @@ function Aside() {
 
   return (
     <>
-      {/**latest news */}
       <div className="bg-white w-full shadow-xl rounded-br-xl rounded-tl-xl">
         <h2 className="uppercase font-bold text-md w-full rounded-tl-xl pl-2 py-1 bg-[#4C64FF] text-white">
           Latest news
@@ -31,7 +30,7 @@ function Aside() {
         ))}
         <div className="px-3 pb-4">
           <div className="pt-4 flex justify-center">
-          <button
+            <button
               onClick={toggleShowAll}
               className="uppercase tracking-wider text-sm text-slate-700 cursor-pointer"
             >

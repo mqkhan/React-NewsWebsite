@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
-const API_NYCKEL = "";
+const API_NYCKEL = "pub_382400e9b25aa439219602c048f8238f59619";
 
 export default function News({ category }) {
   const [articles, setArticles] = useState([]);
@@ -16,7 +16,6 @@ export default function News({ category }) {
 
   return (
     <div>
-      {console.log("all articles in news", articles)}
       <div className=" grid grid-cols-1 lg:grid-cols-2 gap-8">
         {articles.map((article) => (
           <div
